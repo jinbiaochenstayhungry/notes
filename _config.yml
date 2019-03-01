@@ -66,4 +66,4 @@ version: 1.1.0
 # kramdown:
 #  math_engine: mathjax
 
-theme: jekyll-theme-hacker
+theme: jekyll-theme-modernist
