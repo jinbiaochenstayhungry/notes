@@ -1,0 +1,20 @@
+#api公告调整
+https://developers.weixin.qq.com/community/develop/doc/0000ac39168d50641477b725c51c01
+
+#demo
+1. 配置app.json
+  "navigateToMiniProgramAppIdList": ["wxe5f52902cf4de896"]
+
+2.代码
+
+wx.navigateToMiniProgram({
+  appId: '',
+  path: 'page/index/index?id=123',
+  extraData: {
+    foo: 'bar'
+  },
+  envVersion: 'develop',
+  success(res) {
+    // 打开成功
+  }
+})
